@@ -33,6 +33,7 @@ const PeopleSchema = new mongoose.Schema({
     image: String,
     title: String
 })
+
 const People = mongoose.model("People", PeopleSchema)
 
 ///////////////////////////////
